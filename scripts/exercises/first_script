@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+declare -r text_green="$(tput setaf 2)"
+declare -r text_bold="$(tput bold)"
+declare -r text_reset="$(tput sgr0)"
+
+read -p 'Please enter your name: ' name
+
+echo "Hello to this scrip, ${text_green}${text_bold}${name}${text_reset}!"
+
+ls ~/Desktop | wc -l
+
+echo "------------------------------"

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# name='Viktor Zafirovski'
+# echo "Hello ${name}"
+
+contents="$(ls ~)"
+echo "${contents}" | wc -l
+
+

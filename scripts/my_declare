@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+declare -r course_title='Linux'
+echo "I'm learning: ${course_title}..."
+
+
+#course_title='Linux $ Bash'
+#echo "Now I started ${course_title}!!!"
+
+
+declare -i num_students=26
+echo "${num_students}"

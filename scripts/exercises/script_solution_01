@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+declare -r text_red="$(tput setaf 1)"
+declare -r text_green="$(tput setaf 2)"
+declare -r text_blue="$(tput setaf 4)"
+declare -r text_bold="$(tput bold)"
+declare -r text_reset="$(tput sgr0)"
+
+file_heading="Network File"
+
+echo "          ${text_blue}${text_bold}Troubleshoot Network Conectivity:${text_reset} "
+echo "    "
+
+read -p '- Please insert web address and number of conectivity lines: ' web lines
+
+echo "-    -_-      -_-        -_-       -_-     -_-    -_-     -_-      -"
+
+echo "${text_green}${text_bold}The ping process has begun for ${web}${text_reset} starting streaming into ${file_heading}" | tee -a network.txt
+
+ping -c ${lines} ${web} >> network.txt
+
+echo "${text_bold}${file_heading} completed${file_reset}"
+echo "Entered lines: ${text_red}${text_bold}${lines}${text_reset} - Executed lines: ${text_blue}{text_bold}$(wc -l network.txt)${text_reset}"
+
+echo "------------------------------------------"
+
+echo "${text_blue}${text_bold} ***** ${file_heading} Content ***** ${text_reset}"
+
+echo "${text_blue}${text_bold} +  *****************   +   ${text_reset} "
+
+cat network.txt

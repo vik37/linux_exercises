@@ -1,0 +1,21 @@
+[32m{text_bold}The ping process has begun for google.com(B[m starting streaming into Network File
+PING google.com (172.217.169.142) 56(84) bytes of data.
+64 bytes from sof02s32-in-f14.1e100.net (172.217.169.142): icmp_seq=1 ttl=116 time=21.6 ms
+64 bytes from sof02s32-in-f14.1e100.net (172.217.169.142): icmp_seq=2 ttl=116 time=16.6 ms
+64 bytes from sof02s32-in-f14.1e100.net (172.217.169.142): icmp_seq=3 ttl=116 time=13.4 ms
+64 bytes from sof02s32-in-f14.1e100.net (172.217.169.142): icmp_seq=4 ttl=116 time=14.1 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3008ms
+rtt min/avg/max/mdev = 13.433/16.430/21.603/3.202 ms
+[32m[1mThe ping process has begun for google.com(B[m starting streaming into Network File
+[32m[1mThe ping process has begun for google.com(B[m starting streaming into Network File
+PING google.com (142.251.141.46) 56(84) bytes of data.
+64 bytes from sof04s07-in-f14.1e100.net (142.251.141.46): icmp_seq=1 ttl=116 time=23.8 ms
+64 bytes from sof04s07-in-f14.1e100.net (142.251.141.46): icmp_seq=2 ttl=116 time=11.5 ms
+64 bytes from sof04s07-in-f14.1e100.net (142.251.141.46): icmp_seq=3 ttl=116 time=12.8 ms
+64 bytes from sof04s07-in-f14.1e100.net (142.251.141.46): icmp_seq=4 ttl=116 time=11.0 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3012ms
+rtt min/avg/max/mdev = 11.017/14.783/23.785/5.240 ms
